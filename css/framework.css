@@ -1,0 +1,21 @@
+/* reset rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* text */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* color background */
+.bg_black {
+    background-color: #000;
+}
+
+/* color text */
+.twhite {
+    color: #fff;
+}
