@@ -2,13 +2,16 @@
 header  
 *************/
 header {
-    position: fixed;
-    width: 100%;
     text-align: end;
-    padding: .3rem 0;
+    padding: 0.3rem 0;
 }
 header > h1 {
     font-size: 1.5rem;
+}
+
+.fixed_nav {
+    position: fixed;
+    width: 100%;
 }
 
 body {
@@ -21,4 +24,15 @@ body {
     border-radius: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+/*****************
+main  
+*****************/
+main {
+    margin-top: 120px;
+}
+.hero_banner {
+    background-image: url(../img/jumbo-bg.png);
+    height: 675px;
 }
