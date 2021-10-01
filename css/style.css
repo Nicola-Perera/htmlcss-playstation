@@ -11,7 +11,14 @@ header > h1 {
     font-size: 1.5rem;
 }
 
-
 body {
     height: 10000px;
+}
+
+/* button style */
+#button {
+    color: #fff;
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
