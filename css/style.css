@@ -36,3 +36,9 @@ main {
     background-image: url(../img/jumbo-bg.png);
     height: 675px;
 }
+.presentation > img {
+    width: 50%;
+}
+.presentation > h1 {
+    margin: 2.5rem 0;
+}
