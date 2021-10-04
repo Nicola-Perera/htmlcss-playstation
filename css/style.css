@@ -9,6 +9,12 @@ img {
     width: 100%;
 }
 
+.square {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
 /* button style */
 #button {
     color: #fff;
@@ -190,4 +196,12 @@ main {
  }
  .PS_now .row > div {
     padding-top: 5rem;
+}
+
+/* social media */
+.social_media {
+    text-align: center;
+}
+.social_media h2 {
+    margin: 4rem 0;
 }
