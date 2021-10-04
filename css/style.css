@@ -1,7 +1,24 @@
+/* utility */
+.banner {
+    padding-top: 18rem;
+    padding-left: 3rem;
+}
+
+
+
+/* button style */
+#button {
+    color: #fff;
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /************
 header  
 *************/
 header {
+    z-index: 10;
     text-align: end;
     padding: 0.3rem 0;
 }
@@ -18,14 +35,6 @@ body {
     height: 10000px;
 }
 
-/* button style */
-#button {
-    color: #fff;
-    border-radius: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 /*****************
 main  
 *****************/
@@ -35,7 +44,17 @@ main {
 .hero_banner {
     background-image: url(../img/jumbo-bg.png);
     height: 675px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+.hero_banner a {
+    background-color: #CD3D0F;
+}
+.hero_banner p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
 .presentation > img {
     width: 50%;
 }
