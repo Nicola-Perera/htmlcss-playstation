@@ -21,7 +21,6 @@ img {
 header  
 *************/
 header {
-    z-index: 10;
     text-align: end;
     padding: 0.3rem 0;
 }
@@ -30,6 +29,7 @@ header > h1 {
 }
 
 .fixed_nav {
+    z-index: 10;
     position: fixed;
     width: 100%;
 }
@@ -183,3 +183,11 @@ main {
  .PS_plus .row > div {
      padding-top: 5rem;
  }
+
+ /* playstation now */
+ .PS_now {
+     background-color: #161C3B;
+ }
+ .PS_now .row > div {
+    padding-top: 5rem;
+}

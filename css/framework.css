@@ -29,6 +29,10 @@ body {
 .bg_lgrey {
     background-color: #D9DADC;
 }
+.bg_night {
+    background-color: #161C3B;
+}
+
 
 /* color text */
 .twhite {
