@@ -30,6 +30,12 @@ header {
     text-align: end;
     padding: 0.3rem 0;
 }
+.logo_sony {
+    padding: .3rem;
+}
+header img {
+    width: 7%;
+}
 header > h1 {
     font-size: 1.5rem;
 }
@@ -40,15 +46,11 @@ header > h1 {
     width: 100%;
 }
 
-body {
-    height: 10000px;
-}
-
 /*****************
 main  
 *****************/
 main {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 /* jumbo */
@@ -82,7 +84,7 @@ main {
 /* selection */
 .mini {
     width: calc(100% / 6);
-    padding: .3rem;
+    padding: .1rem;
     margin: 0auto;
 }
 .mini img {
@@ -91,7 +93,7 @@ main {
 }
 
 .selected {
-    border: 2px solid #318DD7;
+    border: 3px solid #318DD7;
     border-radius: 1rem;
 }
 
@@ -172,6 +174,13 @@ main {
 .accessory h2 {
     font-size: 1.4rem;
 }
+
+/* playstation store */
+.PS_store h3 {
+    font-size: 1.3rem;
+}
+
+
 /*******
  subscription 
  *******/
@@ -179,6 +188,7 @@ main {
  /* playstation plus */
  .PS_plus {
      background-color: #BEBCBB;
+     margin: 4rem 0;
  }
  .PS_plus #button{
     color: #318DD7;
@@ -209,14 +219,24 @@ main {
 /*****************
 footer  
 *****************/
-
+footer {
+    margin-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
 /* links */
 .region {
     text-align: left;
 }
+.region h4 {
+    font-size: 1rem;
+}
 .region > div,
 .copyright > div {
     width: 20%;
+}
+.links > .container {
+    padding-top: 4rem;
 }
 
 .link_footer a {
@@ -230,4 +250,5 @@ footer
 .copyright p {
     font-size: .9rem;
     width: 80%;
+    padding-bottom: 7rem;
 }
