@@ -14,9 +14,14 @@ body {
 .bg_black {
     background-color: #000;
 }
-
 .bg_dgrey {
     background-color: #363636;
+}
+.bg_red {
+    background-color: #CD3D0F;
+}
+.bg_blue {
+    background-color: #2D64E6;
 }
 
 /* color text */

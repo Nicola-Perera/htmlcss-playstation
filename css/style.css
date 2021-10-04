@@ -49,9 +49,6 @@ main {
     background-repeat: no-repeat;
     background-position: center;
 }
-.hero_banner a {
-    background-color: #CD3D0F;
-}
 .hero_banner p {
     margin-bottom: 2rem;
     font-size: 1.1rem;
@@ -97,4 +94,17 @@ main {
 .PS5 .tgrey {
     font-size: 1.3rem;
     margin-top: 3rem;
+}
+
+.info {
+    margin-top: 11rem;
+}
+
+.console .row {
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+.console .row div,
+.console .row img {
+    flex-shrink: 0;
 }
