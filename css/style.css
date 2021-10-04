@@ -1,5 +1,13 @@
-/* utility */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+/* utility */
+img {
+    width: 100%;
+}
 
 /* button style */
 #button {
@@ -82,15 +90,17 @@ main {
 }
 
 /* playstation 5 */
-.PS5 {
+.PS5, .PS4{
     margin: 5rem 0;
 }
-.PS5 .tlblue {
+.PS5 .tlblue,
+.PS4 .tlblue  {
     font-size: 1rem;
 }
-.PS5 .tgrey {
+.PS5 .tgrey,
+.PS4 .tgrey {
     font-size: 1.3rem;
-    margin-top: 3rem;
+    
 }
 
 .info {
@@ -131,4 +141,28 @@ main {
 }
 .hero_banner2 p {
     font-size: 1.2rem;
+}
+
+/* new releases */
+.card > img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.card h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.new_release .container {
+    margin-left: initial;
+    margin-right: initial;
+}
+
+.new_release {
+    z-index: 5;
+}
+
+/* accessories */
+.accessory h2 {
+    font-size: 1.4rem;
 }
