@@ -86,3 +86,15 @@ main {
     border: 2px solid #318DD7;
     border-radius: 1rem;
 }
+
+/* playstation 5 */
+.PS5 {
+    margin: 5rem 0;
+}
+.PS5 .tlblue {
+    font-size: 1rem;
+}
+.PS5 .tgrey {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
