@@ -2,6 +2,9 @@
 .banner {
     padding-top: 18rem;
     padding-left: 3rem;
+    height: 675px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -45,9 +48,6 @@ main {
 /* jumbo */
 .hero_banner {
     background-image: url(../img/jumbo-bg.png);
-    height: 675px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .hero_banner p {
     margin-bottom: 2rem;
@@ -107,4 +107,22 @@ main {
 .console .row div,
 .console .row img {
     flex-shrink: 0;
+}
+
+/* devices */
+.device img {
+    width: 100%;
+}
+.device h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.picked {
+    border-bottom: 2px solid #318DD7;
+}
+
+/* second game */
+.hero_banner2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
