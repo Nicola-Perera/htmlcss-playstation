@@ -205,3 +205,21 @@ main {
 .social_media h2 {
     margin: 4rem 0;
 }
+
+/*****************
+footer  
+*****************/
+
+/* links */
+.region {
+    text-align: left;
+}
+.region > div {
+    width: 20%;
+}
+
+.link_footer a {
+    text-decoration: none;
+}
+
+/* copyright */
