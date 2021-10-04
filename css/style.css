@@ -166,3 +166,20 @@ main {
 .accessory h2 {
     font-size: 1.4rem;
 }
+/*******
+ subscription 
+ *******/
+
+ /* playstation plus */
+ .PS_plus {
+     background-color: #BEBCBB;
+ }
+ .PS_plus #button{
+    color: #318DD7;
+ }
+ .subscription .sub_logo {
+     width: 60%
+ }
+ .PS_plus .row > div {
+     padding-top: 5rem;
+ }

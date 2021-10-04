@@ -26,6 +26,9 @@ body {
 .bg_dark {
     background-color: #1f1f1f;
 }
+.bg_lgrey {
+    background-color: #D9DADC;
+}
 
 /* color text */
 .twhite {
