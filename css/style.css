@@ -82,10 +82,12 @@ main {
 }
 
 /* selection */
+.game_selection > .row > div {
+    padding: .5rem;
+}
 .mini {
-    width: calc(100% / 6);
-    padding: .1rem;
-    margin: 0auto;
+    padding: .2rem;
+    
 }
 .mini img {
     width: 100%;
@@ -125,8 +127,12 @@ main {
 }
 
 /* devices */
+.device {
+    text-align: center;
+    padding: 2rem;
+}
 .device img {
-    width: 100%;
+    width: 60%;
 }
 .device h3 {
     font-size: 1rem;
