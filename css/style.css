@@ -41,6 +41,8 @@ main
 main {
     margin-top: 120px;
 }
+
+/* jumbo */
 .hero_banner {
     background-image: url(../img/jumbo-bg.png);
     height: 675px;
@@ -60,4 +62,27 @@ main {
 }
 .presentation > h1 {
     margin: 2.5rem 0;
+}
+
+@media and screen (max-width: 991.98px) {
+    .presentation {
+        width: 200%
+    }
+    
+}
+
+/* selection */
+.mini {
+    width: calc(100% / 6);
+    padding: .3rem;
+    margin: 0auto;
+}
+.mini img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.selected {
+    border: 2px solid #318DD7;
+    border-radius: 1rem;
 }
